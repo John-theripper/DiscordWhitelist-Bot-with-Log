@@ -7,8 +7,8 @@ intents.members = True
 
 bot = commands.Bot(command_prefix='', intents=intents)
 
-LOG_CHANNEL_ID = 1175807161599791174
-WEBHOOK_URL = 'https://discord.com/api/webhooks/1175807301668581448/ycmk6-W2XmWwRBYEI850MQUI4_xkJdpOB5GFKzVlWRpzexJNYG3rhaMdYVU6twAxGdZk'
+LOG_CHANNEL_ID = channel_id_here
+WEBHOOK_URL = 'webhook_here'
 
 @bot.event
 async def on_ready():
@@ -19,7 +19,7 @@ async def on_message(message):
     if message.mentions:
         member = message.mentions[0]
 
-        channel_id = 1174433494668148776
+        channel_id = channel_id_here
         if message.channel.id == channel_id:
             role_name = 'Whitelist'
             role = discord.utils.get(message.guild.roles, name=role_name)
