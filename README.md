@@ -1,4 +1,4 @@
-# DiscordWhitelist-Bot-with-Log
+# DC WHITELIST-LOG
 บอทสำหรับยืนยันสิทธิ์ผู้ใช้บน Discord
 
 Copyright (c) John-theripper
